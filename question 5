@@ -1,0 +1,13 @@
+#write a function to return the sum of digit of a number ,n.
+
+def sum_of_digit(n):
+    n = abs(n)  #handel the negative number
+
+    total_sum = 0
+    while n > 0:
+        total_sum += n % 10 #(n % 10 give the last digit)
+        n //= 10   #discard the last digit
+    return total_sum
+print(sum_of_digit(1234))    
+
+    

@@ -1,0 +1,6 @@
+#write a function that takes two integer a and b and print all the even number between them 
+def even_number(a , b):
+    for num in range(a , b + 1):
+        if (num % 2 == 0):
+            print(num)
+even_number(2 , 10)            

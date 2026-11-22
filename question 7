@@ -1,0 +1,13 @@
+#design a program to continuusly input a number n from user and print if it is positive or negative untile user enter a "quit
+while True:
+    user_input = input("enter a num:")    
+    n = float(user_input)
+    if user_input.lower() == "quit":
+        break
+    if n > 0:
+       print("positive")
+    elif n < 0:
+       print("negative")
+    else:
+        print("zero is nither positive or negative")
+print("Quit")            
